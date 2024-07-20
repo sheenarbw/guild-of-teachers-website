@@ -45,7 +45,7 @@ export default function RootLayout({
     <html>
       <body className="bg-slate-100 space-y-10">
 
-        <header className="flex items-center justify-between p-6  border-b bg-gray-100">
+        <header className="flex items-center justify-between p-6  border-b">
           <div className="text-xl font-bold">{title}</div>
           <nav>
             {
@@ -62,7 +62,7 @@ export default function RootLayout({
             {children}
           </div>
         </main>
-        <footer className="flex flex-col items-center justify-center w-full h-24 border-t bg-gray-100 text-gray-500">
+        <footer className="flex flex-col items-center justify-center w-full h-24 border-t text-gray-500">
           <div className="mt-2">
             <a href="https://twitter.com" className="mx-2 hover:text-blue-600">Twitter</a>
             <a href="https://linkedin.com" className="mx-2 hover:text-blue-600">LinkedIn</a>
